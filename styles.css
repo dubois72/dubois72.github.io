@@ -10,12 +10,11 @@ img{
     position: relative;
     border: 3px solid black;
     padding: 10px;
-    text-align: center
+    text-align: center;
 }
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
-    background-color: red;
+    color: red;
     font-size: 40px;
     font-weight: bold;
     text-align: center;
@@ -25,15 +24,13 @@ h1{
 }
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
-    background-color: red;
+    color: red;
     font-size: 40;
     font-weight: bold;
     text-align: center; 
     width: 100%;
     padding: 25px;
     text-transform: uppercase;
-    letter-spacing: 0.4em;
 }
 h3{
     text-align: center;
@@ -46,10 +43,9 @@ h3{
     margin: 0 auto;
 }
 body{
-    background-color: red;
     color: black;    
 }
-.navigation{
+.navigation ol{
     padding: 5px; 
     text-align: center;
 }
