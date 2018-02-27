@@ -1,50 +1,181 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<title>CameronHello World</title>
-<link href="styles.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-<header role="banner">
-  <h1>Cameron DuBois</h1>
-  <h2>Hello World</h2>
-  <img src="CIT15PicCompressed.jpg" width="100" height="100" alt="My Pic">
-  <nav role="navigation">
-    <ol>
-      <li>Hello World</li>
-      <li>How I got started coding</li>
-      <li>What I like about coding</li>
-      <li>Coding is not as complicated as you think</li>
-      <li>HTML syntax</li>
-      <li>Next steps</li>
-    </ol>
-  </nav>
-</header>
-<main role="main">
-  <article>
-    <header>
-      <p>Hello World, my name is <i>Cameron DuBois</i> I am a student at Fresno City College I am a second year student who plans on transferring to Frenso State in the spring of 2019 with a plan to major in Computer Information Systems. I wrestle here at Fresno City College who plans on getting an AA for transfer in business administration and a certificate as web developer.</p>
-    </header>
-    <section>
-      <h3>How I Got Started Coding</h3>
-      <p>I have not been someone who is familiar with code for very long. I first began to learn how to code using <a href="https://www.codecademy.com/learn" title="where I learned to code">CodeAcademy</a> this is a free website for anyone who would like to introduce themselves to basic coding concepts and sytnax. They have a pro package, that I can't speak for because I have never used it before. I know have downloaded a code editor known as VScode which helps clarify syntax for coders making it much easier than trying to just write the code. They automatically close most of your tags which you can easily forget. I am looking forward to learning more coding as I am just getting started.</p>
-      <h3>What I like about coding</h3>
-      <p>There are so many different things to like about coding. First of all, how many people access a website everyday without knowing how it really works. So, I find it to be really cool that I am learning how this infomration is displayed on websites. You can also play with you code. You are the ultimate designer and you get to decide what your website is going to look like. It is almost like a form of art. As the appearance of your site can have a big impact on what people do on your site.</p>
-      <h3>Coding is not as complicated as you think</h3>
-      <p>Coding is actually pretty simple to learn for the most part. Like anything, it will take desire, time, and effort. With those three thinds you can find many resources on many types of code to learn. The place that the majority of begineers start to learn to code is HTML and CSS which are the two most basic, prevelant styles in coding today. Most people tend to learn HTML before they learn CSS as well. The HTMl is what you truly need to create a basic website with text on it. The CSS is mainly meant for the design elements of the website.</p>
-      <h3>HTML Syntax</h3>
-      <p>HTMl syntax is actually rather simple to use too. There are many different tags. Some of the most common tags include title , headings, pargapraphs, DOCTYPES and lists. It is very important that for every open tag you have that there is a closing tag.There are many small errors that can wreck your entire coding, but code editors have debugging that come with them. This helps coders troubleshoot errors when they are trying to launch their sites and something is not coming up or does not look right. For anyone, in any job it will never hurt to learn new things, especially involving computers as they are a part of our everyday lives now. </p>
-      <h3>Next Steps</h3>
-      <p>The next steps to take would be to find a way to learn about some coding. You can do this through resources like the W3C, codeacademy, or even youtube. They all will have relevant infomration for coders. The one that may seem a little overwhelming at first glance is the W3C which is the, World Wide Web Consortium, they help regulate standards that are put for coding. This helps all coders speak in a universal language that can be created across many different types of operating systems. This is essential as it allows to reach to other parts of the world very easily. After, you finish learning HTML and CSS. There are many other languages and databses to learn such Phython, JavaScript, and MyPHP. This all will help advance your coding skills, but it is best to learn the basics first. </p>
-    </section>
-</article>
-</main>
-<footer 
-  <a href="https://www.w3.org/TR/2014/REC-html5-20141028/syntax.html" title="HTML Syntax W3C">HTML Syntax W3C</a>
-  <a href="https://www.codecademy.com/learn" title="free place to learn to code">Codeacademy Free Resource</a>
-  <a href="https://www.youtube.com/watch?v=UB1O30fR-EE" title="Youtube video for HTML beginnners">Youtube HTML Crash Course</a>
-</footer>
-</body>
-</html>
 
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Business Casual - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/business-casual.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div class="brand">Business Casual</div>
+    <div class="address-bar">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <a class="navbar-brand" href="index.html">Business Casual</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12 text-center">
+                    <div id="carousel-example-generic" class="carousel slide">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators hidden-xs">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="img-responsive img-full" src="img/slide-1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="img/slide-2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="img/slide-3.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                            <span class="icon-prev"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                            <span class="icon-next"></span>
+                        </a>
+                    </div>
+                    <h2 class="brand-before">
+                        <small>Welcome to</small>
+                    </h2>
+                    <h1 class="brand-name">Business Casual</h1>
+                    <hr class="tagline-divider">
+                    <h2>
+                        <small>By
+                            <strong>Start Bootstrap</strong>
+                        </small>
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Build a website
+                        <strong>worth visiting</strong>
+                    </h2>
+                    <hr>
+                    <img class="img-responsive img-border img-left" src="img/intro-pic.jpg" alt="">
+                    <hr class="visible-xs">
+                    <p>The boxes used in this template are nested inbetween a normal Bootstrap row and the start of your column layout. The boxes will be full-width boxes, so if you want to make them smaller then you will need to customize.</p>
+                    <p>A huge thanks to <a href="http://join.deathtothestockphoto.com/" target="_blank">Death to the Stock Photo</a> for allowing us to use the beautiful photos that make this template really come to life. When using this template, make sure your photos are decent. Also make sure that the file size on your photos is kept to a minumum to keep load times to a minimum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Beautiful boxes
+                        <strong>to showcase your content</strong>
+                    </h2>
+                    <hr>
+                    <p>Use as many boxes as you like, and put anything you want in them! They are great for just about anything, the sky's the limit!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+
+</body>
+
+</html>
