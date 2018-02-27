@@ -1,3 +1,0 @@
-Cameron DuBois
-Hello World
-
