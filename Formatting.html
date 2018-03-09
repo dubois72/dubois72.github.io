@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-<title>Formatting Page Content</title>    
+<title>Structuring Page Content</title>    
 </head>
 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
@@ -19,7 +19,7 @@
                 <a href="HTTPS.html">HTTPS</a>
             </li>
             <li>
-                <a
+                <a href="index.html">home</a>
             </li>
             <li>
                 <a href="DevTools.html">Chrome Devtools</a>
@@ -28,47 +28,24 @@
                 <a href="Github.html">GitHub</a>
             </li>
         </ul>
-        <h1>Formatting does these things:</h1>
-        <ol>
-            <li>Headings</li>
-            <li>Paragraphs</li>
-            <li>Line Breaks</li>
-            <li>Emphasizing Text</li>
-            <li>Controlling Whitespace</li>
-            <li>Displaying images</li>
-        </ol>
-        <hr>
-        <h2>Headings</h2>
-        <p>Headings determine the hierarchy of your website content. You need an opening and closing tag on elements. The main topic of your page should eb your H1. Then the subtopics, should be H2's. H1 is a bit larger than H2. We can use headings all the up to H6's. In reallity, how headings look on your page have little do with their purpose as this actually has to do with the structure of your page only.</p>
-        <hr>
-        <h2>Paragrpahs</h2>
-        <p>Paragraphs need opening and closing tags within your site as well. It is very easy to forget about your closing tag on paragraphs. This tag should be used for every single indivudal paragraphs. HTMl gives automatic spacing between elements. </p>
-        <hr>
-        <h2>Line Breaks</h2> 
-        <p>If you need to create space between two iteams, but the two items are still related such as an address. We will not separate them into seperate them into different paragraphs. We will use the line break tag(lefft angle bracket)br(right angle bracket). You want to use this tag when you want a hard return without creating a new paragraph.</p>   
-        <hr>
-        <h2>Emphasizing Text</h2>   
-        <p>There are four main tags that we use to empahsis text they are <ul>
-            <li>bold</li>
-            <li>strong</li>
-            <li>Italic</li>
-            <li>Emphasis</li>
-        </ul>
-    </p> 
-    <br>
-    <h3><bold>Bold Tag</bold></h3>
-    <p>To use the <b>bold</b> tag, we will use a (left angle bracket)b(right angle bracket). You need to be careful as whatever you wrap within this tag will get bolded.This will separate this text from the rest of it.</p>
-    <h3><bold><strong>Strong Tag</strong></bold></h3>
-    <p>The <strong>strong</strong> tag is shown by (left angle bracket)strong(right angle bracket). When you use this tag, you are showing a text as having strong importance. It is typically bolded text that has this tag as well.</p>
-    <h3><i>Italic Tag</i></h3>
-    <p>The <i>italic tag</i> is string of text that is set apart stylistically from the text around it. This is helpful on phrases or terms that should stand out.</p>
-    <h3><em><i>Emphasis Tag</em></i></h3>
-    <p>The <em>emphasis tag</em> is used to denote text that is emphasized more than the text aorund it. It is usually shown in italics. It should NOT be used in place of the italics tag.</p>
+    </div>
+    <h1>Page Structure</h1>
+    <h2>Head Element</h2>
+    <p>The first thing that you will implement into your code after you declare your Doctype is your Head element. Within this head element you are going to create a meta tag and the attribute will be charset equal to the value of utf-8. So, it would look like (left angle bracket)meta charset="utf-8"(right angle bracket). You will also include the title of your page within this part of the document as well.</p>
     <hr>
-    <h2>Controlling WhiteSpace</h2>
-    <p>If we want to add whitespace, we need to use a charcter known as a non breaking space. We really want to use CSS for controlling the amount of whitespace on our pages. It is really used if you need two words to stay together when someone is altering the size of your page.</p>
+    <p>Right after the closing head tag, we will create a body tag to place all over our content within. If we type somethiing within our body it will come out just as text with no style. We must remember that CSS controls our styling. We can structure this texy by using the tag H1 which will give it a default setting for the format. We also ahve paragragh tags that are simply represented by (left bracket)p(right bracket) </p>
     <hr>
-    <h2>Displaying Images</h2>
-    <p>The attributes of an image tag are extremely important. They include teh source attribute also known as src and the alt attribute which tells the viewer about the image. There is also the width and height attributes. The most difficult thing to learn is file path for beginners. This tells the browser where to go and find the image. If any spelling, spacing, or capitlization is wrong it will not render on your page. You must put the directory it is in then a black slash and then the file name of the imae. It will change depending on where it is located.</p>
+    <p>This is the beginning that you need to be able to slowly begin to talk about the structure of an HTMl document. Next we wil talk about Formatting Pages</p>
     <hr>
-    <p>The next topic that we are going to dicuss is <a href="Structuring.html">structuring content</a></p>
+    <a href="Formatting.html">Formatting Pages</a>
+    <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <p>Copyright &copy; Your Website 2014</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </html>
+    
